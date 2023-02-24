@@ -1,12 +1,12 @@
 
-import React from 'react'
-import LiftingStateUp from './component/LiftingUpState/LiftingStateUp';
+import React from 'react';
+
+
+import ReactUseEffectvsUseLayoutEffect from './component/Hook/ReactuseeffectvsuseLayouteffect.js'
+
 function App() {
-  
   return (
-    <div className="App">
-    <LiftingStateUp/>
-    </div>
+  <ReactUseEffectvsUseLayoutEffect/>
   );
 }
 
