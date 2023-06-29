@@ -7,6 +7,8 @@ import { useState } from "react";
 
 function UseState() {
 
+
+  console.log("useState",useState)
     const [car, setCar] = useState(
       {
       brand: "Ford",

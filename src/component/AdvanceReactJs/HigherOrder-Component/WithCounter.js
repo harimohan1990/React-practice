@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 const  WithCounter =(WrapperComponent,countNumber) =>{
 
     class WithWrapperCounter extends Component{
-
+      
         constructor(props){
             super(props)
             this.state={

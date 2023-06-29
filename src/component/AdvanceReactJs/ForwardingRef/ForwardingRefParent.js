@@ -6,11 +6,9 @@ export default  class ForwardingRefParent extends Component{
         super(props)
         this.inputRef = React.createRef()
     }
-
      clickHanddler=()=>{
       this.inputRef.current.focus()
     }
-
     render(){
         return(
             <>

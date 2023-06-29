@@ -1,13 +1,15 @@
-
-import React from 'react';
-
-
-import ReactUseEffectvsUseLayoutEffect from './component/Hook/ReactuseeffectvsuseLayouteffect.js'
+import React from "react";
+ import Interview from "./component/Interview/interview";
 
 function App() {
-  return (
-  <ReactUseEffectvsUseLayoutEffect/>
-  );
-}
 
+
+
+  return(
+  <>
+  <h1>Hellsnd,fnds,mfndsm</h1>
+<Interview/>
+  </>
+  )
+}
 export default App;
